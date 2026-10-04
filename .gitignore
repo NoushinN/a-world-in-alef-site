@@ -1,0 +1,14 @@
+public/
+resources/_gen/
+.hugo_build.lock
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.blogdown/
+*_cache/
+.DS_Store
+.env
+.env.*
+*.zip
+node_modules/

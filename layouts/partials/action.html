@@ -1,0 +1,7 @@
+{{- $url := .url | default "" -}}
+{{- if $url -}}
+  {{- if not (hasPrefix $url "https://") -}}{{- $url = (strings.TrimPrefix "/" $url) | relURL -}}{{- end -}}
+  <a class="button {{ .class }}" href="{{ $url }}">{{ .label }} <span aria-hidden="true">↗</span></a>
+{{- else -}}
+  <span class="pending">{{ .label }} · coming soon</span>
+{{- end -}}

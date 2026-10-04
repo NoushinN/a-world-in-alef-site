@@ -1,0 +1,28 @@
+baseURL: "https://noushinn.github.io/a-world-in-alef/"
+languageCode: en-ca
+title: A World in Alef
+enableRobotsTXT: true
+timeZone: America/Vancouver
+# Keep this aligned with .Rprofile and the deployment workflow.
+# Project uses Hugo 0.147.9; no external theme or submodule is required.
+disableKinds: [taxonomy, term]
+ignoreFiles: ['\.Rmd$', '\.Rmarkdown$', '_cache$', '\.knit\.md$', '\.utf8\.md$']
+params:
+  description: "Learn Persian, explore culture, and come along for the journey."
+  author: "A World in Alef"
+  youtube_url: "" # Add the full channel URL when ready.
+  shop_url: "" # Add your external storefront URL when ready.
+  contact_email: "" # Optional public contact address.
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Supports trusted author-written HTML and blogdown output.
+menus:
+  main:
+    - {name: Home, pageRef: /, weight: 10}
+    - {name: Start Here, pageRef: /start-here, weight: 20}
+    - {name: Lessons, pageRef: /lessons, weight: 30}
+    - {name: Resources, pageRef: /resources, weight: 40}
+    - {name: Blog, pageRef: /blog, weight: 50}
+    - {name: About, pageRef: /about, weight: 60}
+    - {name: Shop, pageRef: /shop, weight: 70}

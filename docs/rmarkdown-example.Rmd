@@ -1,0 +1,16 @@
+---
+title: "A note from my notebook"
+date: 2026-09-28
+draft: true
+description: "An example R Markdown blog post."
+output: blogdown::html_page
+---
+
+Copy this file to `content/blog/my-note/index.Rmd`. Do not also create an index.md in that same folder.
+
+```{r, echo=FALSE}
+# Optional R computation. Remove this chunk if you only want prose.
+cat("Small steps count.")
+```
+
+Write your post here, then set draft: false when ready.

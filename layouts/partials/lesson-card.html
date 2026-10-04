@@ -1,0 +1,5 @@
+<article class="lesson-card" data-search="{{ printf "%s %s %s" .Title .Description .Params.focus | lower }}" data-phase="{{ .Params.phase }}">
+<div class="card-top"><span class="eyebrow">Lesson {{ printf "%02d" .Params.number }}</span><span class="status">{{ if .Params.youtube_url }}Watch now{{ else }}In preparation{{ end }}</span></div>
+<h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p>
+<a class="text-link" href="{{ .RelPermalink }}">Lesson & resources <span aria-hidden="true">→</span></a>
+</article>

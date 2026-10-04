@@ -1,0 +1,23 @@
+---
+title: "Now You Can Read Salam"
+description: "Read سلام and قلم."
+number: 15
+weight: 15
+phase: 2
+focus: "ل and ق"
+# Fill these only when the video/PDF has been published.
+youtube_url: ""
+worksheet_url: ""
+answer_key_url: ""
+flashcards_url: ""
+---
+
+## What you’ll practise
+
+Read سلام and قلم.
+
+## A small practice routine
+
+Listen to the model, try the activity, then check your answer. Give yourself time to notice what changed. Return the next day and try one example without a hint.
+
+**Before you begin:** work through [lesson 14]({{< relref "/lessons/14" >}}) or revisit any unfamiliar material.

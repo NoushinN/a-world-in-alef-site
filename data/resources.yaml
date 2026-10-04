@@ -1,0 +1,37 @@
+# Add a PDF under static/downloads/, then fill its url with downloads/filename.pdf.
+# Empty URLs display a non-clickable Coming soon label.
+- title: "Alphabet chart"
+  description: "All 32 letters in one place, with clear forms to return to."
+  category: "Reference"
+  image: "images/pen.svg"
+  url: ""
+
+- title: "Starter practice"
+  description: "A small first step: listen, match pictures and notice reading direction."
+  category: "Begin here"
+  image: "images/water.svg"
+  url: ""
+
+- title: "Picture flashcards"
+  description: "Meet a word through its meaning, then try recalling it without a hint."
+  category: "Recall"
+  image: "images/apple.svg"
+  url: ""
+
+- title: "Practice notebook"
+  description: "Room for a new word, a picture and a second attempt."
+  category: "Write"
+  image: "images/book.svg"
+  url: ""
+
+- title: "Alef Passport"
+  description: "Keep track of small wins as you move through the lessons."
+  category: "Progress"
+  image: "images/calendar.svg"
+  url: ""
+
+- title: "First mini-reader"
+  description: "A short reading experience for when your first words feel familiar."
+  category: "Read"
+  image: "images/tea.svg"
+  url: ""
